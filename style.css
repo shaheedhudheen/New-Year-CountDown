@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-image: url("mark-eder-R9OS29xJb-8-unsplash.jpg");
     font-family: 'Poppins', sans-serif;
@@ -26,6 +28,7 @@ h1{
 .countdown-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .big-text{
